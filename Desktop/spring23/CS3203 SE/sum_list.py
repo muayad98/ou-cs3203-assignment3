@@ -9,7 +9,7 @@ def multiply_list(numbers):
     for num in numbers:
         result *= num
     return result
-    
+
 def reverse_list(numbers):
     return numbers[::-1]
 
@@ -21,8 +21,11 @@ def main():
     # Call the functions and print the results
     sum_result = sum_list(numbers)
     multiply_result = multiply_list(numbers)
+    reverse_result = reverse_list(numbers)
     print("Sum:", sum_result)
     print("Product:", multiply_result)
+    print("Reversed List:", reverse_result)
 
 if __name__ == "__main__":
     main()
+
