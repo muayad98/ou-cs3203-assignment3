@@ -10,9 +10,17 @@ def multiply_list(numbers):
         result *= num
     return result
 
-# Example usage
-numbers = [1, 2, 3, 4, 5]
-sum_result = sum_list(numbers)
-multiply_result = multiply_list(numbers)
-print("Sum:", sum_result)  # Output: 15
-print("Product:", multiply_result)  # Output: 120
+def main():
+    # Get input from user
+    user_input = input("Enter a list of numbers, separated by spaces: ")
+    numbers = [int(num) for num in user_input.split()]
+
+    # Call the functions and print the results
+    sum_result = sum_list(numbers)
+    multiply_result = multiply_list(numbers)
+    print("Sum:", sum_result)
+    print("Product:", multiply_result)
+
+if __name__ == "__main__":
+    main()
+
