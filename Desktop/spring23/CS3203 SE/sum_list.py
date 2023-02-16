@@ -9,6 +9,9 @@ def multiply_list(numbers):
     for num in numbers:
         result *= num
     return result
+    
+def reverse_list(numbers):
+    return numbers[::-1]
 
 def main():
     # Get input from user
@@ -23,4 +26,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
