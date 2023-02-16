@@ -24,9 +24,7 @@ def main():
     reverse_result = reverse_list(numbers)
     print("Sum:", sum_result)
     print("Product:", multiply_result)
-    print("Reverse:", reverse_result)
-
+    print("Reversed List:", reverse_result)
 
 if __name__ == "__main__":
     main()
-
